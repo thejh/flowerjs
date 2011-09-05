@@ -36,7 +36,8 @@ Line.prototype.pourWater = function() {
 }
 
 Line.prototype.toString = function() {
-  return padTo(this.preSpaces + this.code, 80) + this.borderSymbols
+  // must be such a high number in order to make it invisible on github for extra lulz :D
+  return padTo(this.preSpaces + this.code, 128) + this.borderSymbols
 }
 
 
